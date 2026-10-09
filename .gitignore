@@ -1,0 +1,5 @@
+/bin/
+*.o
+*.out
+__pycache__/
+.DS_Store
