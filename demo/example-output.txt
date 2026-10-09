@@ -1,0 +1,19 @@
+sh demo/run.sh
+--- Shelf Steam ---
+shelf-steam> sample: Small sample program for Shelf Steam
+shelf-steam> Argument: hello
+shelf-steam> Input: hello from a file
+shelf-steam> --- Parallel Hashing ---
+alpha:MD5
+beta:SHA1
+gamma:SHA256
+alpha:SHA512
+not found
+--- RAID 5 (hex disk data) ---
+disk1: 0102090a11000000
+disk2: 03040b0c131e0000
+disk3: 0506050e0d0e0000
+disk4: 070007080f100000
+stripe 0: parity on disk 4, XOR verified
+stripe 1: parity on disk 3, XOR verified
+stripe 2: parity on disk 2, XOR verified
